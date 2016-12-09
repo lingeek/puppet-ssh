@@ -3,6 +3,7 @@
 class ssh (
 
 #Master Branch
+# stuff this is DEV branch
 
 #This value is in SuSe.yaml/eb3
 $sshd_package             = hiera('sshd_package'),
