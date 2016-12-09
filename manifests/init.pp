@@ -1,6 +1,7 @@
 #This is the class for manageing SSH
 
 class ssh (
+#this is DEV branch
 #This value is in SuSe.yaml/eb3
 $sshd_package             = hiera('sshd_package'),
 $service_name             = hiera('sshd::service'),
